@@ -47,7 +47,7 @@ int sc_main(int args, char* argv[]){
 			//fil_j_code =sc_logic('1'); fil_j1_code =sc_logic('1');
 //			sc_start (100, SC_NS);
 //			cout << "W2 = " <<fil_j1_code << "  W1 = "<<fil_j_code <<"  Sw = "<< S_switch <<endl<<endl;
-			sc_time t(11, SC_NS);    // duracion de la simulacion = 50 ns en cada bucle for
+			sc_time t(12, SC_NS);    // duracion de la simulacion = 50 ns en cada bucle for
 			for (int i = 0; i < N; i++ ) {
 				//din.write(AB[i].din);
 				fil_j1 = AB[i].a;
